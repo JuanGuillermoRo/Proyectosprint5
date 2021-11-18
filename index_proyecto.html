@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>PROYECTO UPB CICLO 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo_proyecto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <header class="header">
+        <a href="" class="logo">MENU AJUSTADO A VARIAS PANTALLAS</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="https://www.linkedin.com/in/juan-guillermo-romero-libreros/">SOBRE MI</a></li>
+          <li><a href="https://www.instagram.com/juanromel/?hl=en">MI INSTAGRAM</a></li>
+          
+        </ul>
+      </header>
+    <body>
+        
+        <div class="titulo">
+            <h2>PROYECTO UPB CICLO 3</h2>
+        </div>
+          
+  </ul>
+        <div class="fondo">
+            <div id="btn">
+                <button id="btn1" onclick="generate_quotes()">OBTEN UNA FRASE AMPLIA DANDO CLICK!</button>
+                <button id="btn2" onclick="generate_inspiration()">OBTEN UNA FRASE INSPIRADORA DANDO CLICK!</button>
+                <button id="btn3" onclick="generate_inspiration_eng()">OBTEN UNA FRASE EN INGLES DANDO CLICK!</button>
+            </div>         
+            <div id="output" class="cuadrado"></div>   
+        </div>
+    </body>
+    <script type="text/javascript" src="proyecto.js"></script>
+</html>
